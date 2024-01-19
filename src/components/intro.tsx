@@ -32,7 +32,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://media.licdn.com/dms/image/D4D03AQFOXBNlNRG3sQ/profile-displayphoto-shrink_800_800/0/1694009132523?e=1710979200&v=beta&t=c8fkS19W2_PdbH-vcgaaGLnyYwLzPz10fLZngBe9358"
+              src="1694009132523.jpeg"
               alt="Stepan portrait"
               width="192"
               height="192"
@@ -102,7 +102,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="www.linkedin.com/in/stepan-grigorovich"
+          href="https://www.linkedin.com/in/stepan-grigorovich"
           target="_blank"
         >
           <BsLinkedin />

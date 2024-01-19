@@ -2,6 +2,8 @@ import React from "react";
 import { validateString, getErrorMessage } from "@/lib/utils";
 import ContactFormEmail from "@/email/contact-form-email";
 
+const RESEND_API_KEY = process.env.NEXT_PUBLIC_RESEND_API_KEY;
+
 export const sendEmail = async (formData: FormData) => {
   const senderEmail = formData.get("senderEmail");
   const message = formData.get("message");
@@ -24,19 +26,24 @@ export const sendEmail = async (formData: FormData) => {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': `Bearer ${process.env.RESEND_API_KEY}`
+        'Authorization': `Bearer ${RESEND_API_KEY}`,
       },
       body: JSON.stringify({
         from: "Contact Form <onboarding@resend.dev>",
         to: "gsdstr@gmail.com",
         subject: "Message from contact form",
         reply_to: senderEmail,
-        react: React.createElement(ContactFormEmail, {
-          message: message,
-          senderEmail: senderEmail,
-        }),
+        text: message
+        // react: React.createElement(ContactFormEmail, {
+        //   message: message,
+        //   senderEmail: senderEmail,
+        // }),
       })
     });
+
+    if (res.ok) {
+      console.log("OK");
+    }
   } catch (error: unknown) {
     return {
       error: getErrorMessage(error),
