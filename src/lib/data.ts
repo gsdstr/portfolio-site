@@ -23,10 +23,10 @@ export const links = [
     name: "Skills",
     hash: "#skills",
   },
-//   {
-//     name: "Experience",
-//     hash: "#experience",
-//   },
+  {
+    name: "Experience",
+    hash: "#experience",
+  },
   {
     name: "Contact",
     hash: "#contact",
@@ -35,28 +35,20 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Ural State Technical University",
+    location: "Yekaterinburg, Russia",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I got a Master's degree in Mathematics and Computer Science.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2002 - 2008",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Vedisoft | Software Engineer",
+    location: "Yekaterinburg, Russia",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a software enginer for 2 years. ",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2006 - 2008",
   },
 ] as const;
 

@@ -5,7 +5,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
-import { HiDownload } from "react-icons/hi";
+import { HiEye } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
@@ -64,7 +64,7 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I&apos;m Stepan.</span> I&apos;m a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
+        <span className="font-bold">Full-stack Software Engineer & Founding Engineer</span> with{" "}
         <span className="font-bold">{calculateAge()} years</span> of experience. I enjoy
         building <span className="italic">sites & apps</span>.
          {/* My focus is{" "}
@@ -91,14 +91,14 @@ export default function Intro() {
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
-        {/* <a
+        <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/CV.pdf"
-          download
+          href="https://docs.google.com/document/d/18gTvL-XWO8-bIGyOQ0MrdTY75f3VMSfjo1ORBfhTi7M/edit?usp=sharing"
+          target="_blank"
         >
-          Download CV{" "}
-          <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
-        </a> */}
+          My CV{" "}
+          <HiEye className="opacity-60 transition" />
+        </a>
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
