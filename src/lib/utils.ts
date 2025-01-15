@@ -26,7 +26,7 @@ export const validateString = (
   };
 
   export const calculateAge = () => {
-    var ageDifMs = new Date().getTime() - new Date('2006-10-01').getTime();
-    var ageDate = new Date(ageDifMs);
+    const ageDifMs = new Date().getTime() - new Date('2006-10-01').getTime();
+    const ageDate = new Date(ageDifMs);
     return Math.abs(ageDate.getUTCFullYear() - 1970);
   }

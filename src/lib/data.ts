@@ -35,20 +35,67 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Ural State Technical University",
+    title: "Software Engineer",
+    company: "Gehtsoft USA LLC",
+    location: "Yekaterinburg, Russia",
+    description:
+        "I worked as a software engineer for 2 years.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024 - 2024",
+  },
+  {
+    title: "Founding Software Engineer",
+    company: "Advertising company, NDA",
+    location: "Mersin, Turkey",
+    description:
+        "I worked as a software engineer for 2 years.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2018 - 2023",
+  },
+  {
+    title: "Software Engineer",
+    company: "Dealer-FX",
+    location: "Yekaterinburg, Russia",
+    description:
+        "I worked as a software engineer for 2 years.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2013 - 2018",
+  },
+  {
+    title: "Lead Software Engineer | Founding Engineer",
+    company: "Fanwave LTD",
+    location: "Yekaterinburg, Russia",
+    description:
+        "I worked as a software engineer for 2 years. ",
+    icon: React.createElement(CgWorkAlt),
+    date: "2012 - 2013",
+  },
+  {
+    title: "Lead Software Engineer in R&D Department",
+    company: "Promelektronika",
+    location: "Yekaterinburg, Russia",
+    description:
+        "I worked as a software engineer for 2 years. ",
+    icon: React.createElement(CgWorkAlt),
+    date: "2008 - 2012",
+  },
+  {
+    title: "Software engineer",
+    company: "Vedisoft | Software Engineer",
+    location: "Yekaterinburg, Russia",
+    description:
+        "I worked as a software engineer for 2 years.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2006 - 2008",
+  },
+  {
+    title: "Master's degree in Mathematics and Computer Science",
+    company: "Ural State Technical University",
     location: "Yekaterinburg, Russia",
     description:
       "I got a Master's degree in Mathematics and Computer Science.",
     icon: React.createElement(LuGraduationCap),
     date: "2002 - 2008",
-  },
-  {
-    title: "Vedisoft | Software Engineer",
-    location: "Yekaterinburg, Russia",
-    description:
-      "I worked as a software enginer for 2 years. ",
-    icon: React.createElement(CgWorkAlt),
-    date: "2006 - 2008",
   },
 ] as const;
 
@@ -91,6 +138,7 @@ export const skillsData = [
   "Kotlin",
   "Android",
   "PostgreSQL",
+  "MongoDB",
   "Vue.js",
   "Qt",
 ] as const;

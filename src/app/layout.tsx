@@ -7,12 +7,40 @@ import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
 import { calculateAge } from "@/lib/utils";
+import React from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Stepan Grigorovich | Personal Portfolio",
-  description: `Stepan Grigorovich is a full-stack developer with ${calculateAge()} years of experience.`,
+  title: "Stepan Grigorovich | Software Developer & Founding Engineer",
+  description: `Stepan Grigorovich is a Full-Stack Developer & Founding Engineer with ${calculateAge()} years of experience.`,
+  icons: {
+    icon: [
+      {
+        type: 'image/svg+xml',
+        media: '(prefers-color-scheme: light)',
+        url: '/icon-light.svg'
+      },
+      {
+        type: 'image/svg+xml',
+        media: '(prefers-color-scheme: dark)',
+        url: '/icon-dark.svg'
+      },
+      {
+        "url": "/web-app-manifest-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "url": "/web-app-manifest-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  },
+  // "theme_color": "#ffffff",
+  // "background_color": "#ffffff",
+  // "display": "standalone"
 };
 
 export default function RootLayout({
@@ -22,7 +50,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="!scroll-smooth">
-      <body
+    <body
         className={`${inter.className} bg-orage-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
       >
         {/* <div className="bg-[#fbe2e3] absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#946263]"></div>
