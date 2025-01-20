@@ -14,6 +14,14 @@ const nextConfig = {
     serverActions: {
       allowedOrigins: ['joul.in', '*.joul.in'],
     },
+  },
+  async rewrites() {
+    return [
+      {
+        source: '/script.js',
+        destination: 'https://cloud.umami.is/script.js', // Matched parameters can be used in the destination
+      },
+    ]
   }
 };
 
