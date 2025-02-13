@@ -35,9 +35,18 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Founding Software Engineer",
+    company: "Proletek",
+    location: "Mersin, Turkey",
+    description:
+        "I worked as a software engineer for 2 years.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2025 - ",
+  },
+  {
     title: "Software Engineer",
     company: "Gehtsoft USA LLC",
-    location: "Yekaterinburg, Russia",
+    location: "Mersin, Turkey",
     description:
         "I worked as a software engineer for 2 years.",
     icon: React.createElement(CgWorkAlt),
@@ -140,5 +149,6 @@ export const skillsData = [
   "PostgreSQL",
   "MongoDB",
   "Vue.js",
+  "n8n",
   "Qt",
 ] as const;
