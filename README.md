@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Print-friendly portfolio CV
 
-## Getting Started
+![preview](https://github.com/user-attachments/assets/44c47034-06e4-412a-b9dd-014593b32215)
 
-First, run the development server:
+![Astro Badge](https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=fff&style=flat)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-0F172A?&logo=tailwindcss)
+![GitHub stars](https://img.shields.io/github/stars/Smilesharks/dev-portfolio)
+![GitHub issues](https://img.shields.io/github/issues/Smilesharks/dev-portfolio)
+![GitHub forks](https://img.shields.io/github/forks/Smilesharks/dev-portfolio)
+![GitHub PRs](https://img.shields.io/github/issues-pr/Smilesharks/dev-portfolio)
+
+## 🛠️ Stack
+
+- [**Astro**](https://astro.build/) - The next-gen web framework.
+- [**Typescript**](https://www.typescriptlang.org/) - JavaScript with type syntax.
+- [**Ninja Keys**](https://github.com/ssleptsov/ninja-keys) - Dropdown menu with keyboard shortcuts made in pure JavaScript.
+
+## 🚀 Getting Started
+
+### 1. Use this Repo as an Astro Project Template
+
+- I use [pnpm](https://pnpm.io/installation) as my package manager.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Enable pnpm on MacOS, WSL & Linux:
+corepack enable
+corepack prepare pnpm@latest --activate
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Initialize the project
+```bash
+pnpm create astro@latest -- --template Smilesharks/dev-portfolio
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 2. Add Your Content:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Edit the `cv.json` file to create your own printable Portfolio/CV.
 
-## Learn More
+### 3. Launch the Development Server:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+# Enjoy the results
+pnpm dev
+```
+1. Open [**http://localhost:4321**](http://localhost:4321/) in your browser to view the result 🚀
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 4. Customisable colours:
+Change the data-theme of `cv.json` and choose one of the colour themes defined in theme.css, red, blue, green, cyber and default, with its variants in dark mode, or create your own.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🧞 Commands
 
-## Deploy on Vercel
+|     | Command         | Action                                                                       |
+| :-- | :-------------- | :--------------------------------------------------------------------------- |
+| ⚙️  | `dev` o `start` | Launches a local development server at `localhost:4321`.                   |
+| ⚙️  | `build`         | Checks for errors and creates a production build in `./dist/`. |
+| ⚙️  | `preview`       | Local preview at `localhost:4321`                                       |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+CV JSON schema from [**jsonresume.org**](https://jsonresume.org/schema/)
+
+Based on [**Bartosz Jarocki - Print-friendly, minimalist CV page**](https://github.com/BartoszJarocki/cv) and [**Miguel Ángel Durán - minimalist-portfolio-json**](https://github.com/midudev/minimalist-portfolio-json)

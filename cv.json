@@ -1,0 +1,347 @@
+{
+  "basics": {
+    "name": "Stepan Grigorovich",
+    "label": "𝐅𝐮𝐥𝐥-𝐬𝐭𝐚𝐜𝐤 𝐒𝐨𝐟𝐭𝐰𝐚𝐫𝐞 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫 & 𝐅𝐨𝐮𝐧𝐝𝐢𝐧𝐠 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫 | 10+y. Web & Mobile Mastery (JavaScript, Java, Kotlin, Swift) | MVP Specialist | Startup Architect | Math & CS Master`s",
+    "image": "/1694009132523.jpeg",
+    "email": "gsdstr@gmail.com",
+    "phone": "+90 535 679 07 60",
+    "url": "https://www.joul.in",
+    "summary": "𝐈'𝐦 𝐒𝐭𝐞𝐩𝐚𝐧, 𝐚 𝐅𝐮𝐥𝐥-𝐬𝐭𝐚𝐜𝐤 𝐒𝐨𝐟𝐭𝐰𝐚𝐫𝐞 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫 with over a decade of experience in web and mobile development. My journey in the tech world has been diverse, ranging from crafting MVPs for startups to leading remote teams in EdTech, Marketing & Advertising, Automated Transportation Systems (ATS), and Business Automation.\n\nMy development philosophy centers around innovation and quick adaptation to emerging technologies. Over the years, I've effectively tackled abstract challenges, enhancing products and contributing to company growth. My professional journey also encompasses extensive experience in Desktop (C++, Qt) and Embedded Development.\n\nPassionate about exploring new frontiers, I'm always ready for new challenges. My background as a founder and lead engineer in startups has enriched my creativity and ability to find innovative solutions.\n\nLet's connect, share experiences, and embark on this journey together!",
+    "theme": "default",
+    "location": {
+      "address": "",
+      "postalCode": "33210",
+      "city": "Mersin",
+      "countryCode": "Tr",
+      "region": "Turkey"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "stepan-grigorovich",
+        "url": "https://www.linkedin.com/in/stepan-grigorovich/"
+      },
+      {
+        "network": "GitHub",
+        "username": "gsdstr",
+        "url": "https://github.com/gsdstr"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Proletek",
+      "position": "Founding Software Engineer",
+      "startDate": "2025-01-31",
+      "endDate": "",
+      "highlights": [],
+      "summary": "AI Automation Agency. Business process automation agency.",
+      "url": ""
+    },
+    {
+      "name": "Gehtsoft USA LLC",
+      "position": "Software Engineer",
+      "startDate": "2024-04-30",
+      "endDate": "2024-08-31",
+      "highlights": [
+      ],
+      "achievements": [
+        "Developed a client simulating user behavior for backend load testing.",
+        "Audited and fixed memory leaks in a library being developed by the team.",
+        "Standardization of deliverable code through the use of ESLint and Prettier"
+      ],
+      "skills": [
+        "JavaScript",
+        "Java"
+      ],
+      "summary": "Development cross-platform library for interaction between broker terminal app and API",
+      "url": "https://www.linkedin.com/company/gehtsoft/",
+      "location": "United States"
+    },
+    {
+      "name": "NDA, startup in advertising.",
+      "position": "Founding Software Engineer",
+      "startDate": "2018-03-31",
+      "endDate": "2023-12-31",
+      "highlights": [],
+      "summary": "The company operates in advertising. Company managers utilize the product as a tool for managing the promotion of applications on the Play Store/App Store. The product was developed from scratch.\n\n Within 6 months, I designed and created an MVP for the product using Meteor.JS (Node.js + MongoDB) on the backend, Vue.JS and Bulma on the front, along with Restivus for the Rest API.\nI actively participated in discussions and the development of new features, consistently refining the existing functionality to meet client requests.\nEffectively managed a remote team of 4 individuals (layout, design, testing).\nDeveloped a mobile application for the product from the ground up using Java, later rewriting it in Kotlin to enhance application stability. Additionally, I created an iOS application using Swift.",
+      "skills": [
+        "JavaScript",
+        "MongoDB",
+        "Java",
+        "Swift"
+      ],
+      "url": "",
+      "location": "Mersin, Turkey"
+    },
+    {
+      "name": "Dealer-FX",
+      "position": "Software Engineer",
+      "startDate": "2013-11-30",
+      "endDate": "2018-02-28",
+      "highlights": [],
+      "summary": "Dealer-FX is a pioneering product company that revolutionizes automotive service operations through advanced data integrations and mobile technology, elevating dealership efficiency and brand loyalty. As the preferred service technology provider for major OEMs, its impactful presence spans the US, Canada, and Puerto Rico. I was responsible for developing new features and enhancing existing functionality for a specialized automation system for dealership centers, providing advanced capabilities. This system ensures intuitive appointment scheduling and automated maintenance reminders, ensuring seamless organization and enhancing customer comfort. I was also involved in finalizing the system's chat room for managers and a module called DFX Lines to automate the distribution of tasks among employees of dealership centers. \n\nContributed to the development and enhancement of a web product on the front end using React, Angular JS, and RxJS, later transitioning to Angular 2.\nPlayed a key role in refining the backend of the product, utilizing C#.\nImplemented testing for the application using Jasmine.\nOptimized the product for improved memory usage and reduced loading times by optimizing code and logic, employing the Chrome DevTools profiler.\nSuccessfully collaborated within a 20-member team, following the Scrum methodology and utilizing Git version control.",
+      "skills": [
+        "JavaScript",
+        "Angular",
+        "Java",
+        "Swift"
+      ],
+      "url": "https://www.linkedin.com/company/dealer-fx/",
+      "location": "Yekaterinburg, Sverdlovsk, Russia"
+    },
+    {
+      "name": "Fanwave LTD",
+      "position": "Lead Software Engineer | Founding Engineer",
+      "startDate": "2012-04-30",
+      "endDate": "2013-06-30",
+      "highlights": [],
+      "summary": "Fanware was an early-stage startup company. I was the first engineer hired by the company and was involved in early-stage projects.\n\n1. GetApps was an application that served as a centralized system for aggregating information from official application catalogs in the App Store and Play Store. Users could view ratings, provide feedback on product usage, and more. The system was developed from scratch over 6 months, utilizing Java, Android Java, Swift, and Objective-C technologies.\n\n\n2. FanWave was a groundbreaking social Wi-Fi solution designed to enhance customer loyalty in restaurants and cafes. Over a year, I led the development of a comprehensive system, consisting of hardware and software components integrated into Wi-Fi routers. This innovative platform allowed customers to create personalized profiles through seamless integration with social media APIs, enabling them to accumulate rewards in the catalog for specific actions taken on the establishment's page. This approach not only facilitates the collection of valuable customer data but also fosters loyalty, gathers post-visit feedback, and provides a rewarding experience. \nDeveloped the Minimum Viable Product (MVP) within 6 months and subsequently contributed to the ongoing product development. \nCreated the client side using Twig (PHP) to allow for client-specific customization.\nDeveloped a bespoke admin console on Play Framework (Scala) for the addition, management, and viewing of client statistics.\nConfigured a router using Bash and Python to facilitate Wi-Fi access through social media.\nEstablished a custom server using Flask (Python) + CouchDB to handle interactions with social media APIs.\nDemonstrated proficiency in using Linux, Redmine, and Git in daily work tasks.",
+      "url": "",
+      "location": "Yekaterinburg, Sverdlovsk, Russia"
+    },
+    {
+      "name": "Promelektronika",
+      "position": "Lead Software Engineer in R&D Department",
+      "startDate": "2008-05-31",
+      "endDate": "2012-04-30",
+      "highlights": [],
+      "summary": "Promelectronika is a group of companies and is one of the largest suppliers of electronic components in Russia. I held a position in a research and production center that focused on the development, manufacturing, and sales of railway automation and telemechanic systems. My involvement in the project was centered around the development and enhancement of \"Automatic locomotive signaling using a radio channel\". This product is designed for interval regulation and ensuring the safety of train movement, including high-speed trains, with any type of traction, on single-track, double-track, and multi-track sections of railways of all categories.\n\nLed the development of a dispatch automation solution, optimizing train operations to minimize downtime and enhance safety.\nDesigned a streamlined software architecture, including a locomotive status display interface (Qt, C++), a data storage server (Spring, Java, PostgreSQL), and an automated dispatcher workstation (jQuery, JavaScript, SVG, AJAX). Additionally, it utilized MODBUS, TCP/IP, and UDP.",
+      "url": "https://www.linkedin.com/company/promelektronika/",
+      "location": "Yekaterinburg, Sverdlovsk, Russia"
+    },
+    {
+      "name": "Vedisoft",
+      "position": "Software Engineer",
+      "startDate": "2006-08-31",
+      "endDate": "2008-03-31",
+      "highlights": [],
+      "summary": "Vedisoft specializes in cloud application development with a focus on a single and multi-tenant architecture, cross-platform clients, and communication channels integration. They are also renowned for their achievements, including being the #1 computer telephony integration solution for SMBs in Russia and providing VoIP softphones and customized CRM solutions for major clients like Yandex.\n\nInitiated my professional journey at this company, cultivating a foundational understanding of programming languages as tools for task implementation.\nSpearheaded long-term client projects in Java, .Net, and Python development, concurrently serving as a mentor to onboard and guide new team members for effective collaboration on the company's innovative projects.",
+      "url": "https://www.linkedin.com/company/vedisoft/",
+      "location": "Yekaterinburg, Sverdlovsk, Russia"
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Ural State Technical University",
+      "area": "Mathematics and Computer Science",
+      "studyType": "Master's degree",
+      "startDate": "2002-12-31",
+      "endDate": "2008-12-31",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "Learndroid online courses for Android developers ",
+      "issuer": "e-legion",
+      "endDate": "2015-06-30",
+      "startDate": "2015-03-31",
+      "url": "https://www.e-legion.com/education/"
+    },
+    {
+      "name": "EF SET English Certificate 74/100 (C2 Proficient)",
+      "issuer": "EF Standard English Test (EF SET) ",
+      "startDate": "2024-01-31",
+      "url": "https://www.efset.org/cert/1J7qBa"
+    },
+    {
+      "name": "Develop an ASP.NET Core web app that consumes an API",
+      "issuer": "Microsoft",
+      "startDate": "2023-12-31",
+      "url": "https://learn.microsoft.com/en-us/users/stepangrigorovich/transcript/73k6eu8394x6lpw"
+    },
+    {
+      "name": "Front End Development Libraries",
+      "issuer": "freeCodeCamp",
+      "startDate": "2024-02-28",
+      "url": "https://freecodecamp.org/certification/fccefe22eae-69c7-4db5-b80b-362af5d678a7/front-end-development-libraries"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "TypeScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Full-Stack Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Node.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Technologies",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Kotlin",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Java",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Android Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Flutter",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Engineering",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Swift (Programming Language)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "C#",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Project Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "React.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Qt",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Mobile Application Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Meteor.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "ASP.NET Core",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microsoft SQL Server",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Mobile Enterprise",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "AngularJS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Android",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Oracle Database",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "fluency": "Professional Working",
+      "language": "English"
+    },
+    {
+      "fluency": "Native Speaker",
+      "language": "Russian"
+    }
+  ],
+  "interests": [],
+  "references": [
+    {
+      "name": "Andrew Kalashnikov",
+      "reference": "I had the opportunity to work with Stepan on the avtobus1 project, where he demonstrated exceptional skills in full-stack development and mobile application design. His technical proficiency, attention to detail, and dedication to delivering high quality software made a significant impact on the success of the project.\n\nI would highly recommend Stepan for any full stack or mobile development position. He is an outstanding engineer who can both lead projects and work effectively with teams to bring complex ideas to life."
+    },
+    {
+      "name": "Anton Cheshkov",
+      "reference": "I had the pleasure of working with Stepan in Dealer-FX company and on other projects before. He has a strong software engineering skills, with deep expertise in web and mobile development. He likes challenging tasks and to find optimal solutions that satisfies a product owner and engineering team. \n\nI confidently recommend him as an excellent professional and team player."
+    },
+    {
+      "name": "Alexander Kalitenya",
+      "reference": "I had the pleasure of working with Stepan for two years, during which time he consistently demonstrated exceptional skills and a profound understanding of various programming languages. As a Full-stack Software Engineer, Stepan's expertise in JavaScript, C#, Kotlin, Swift, and other technologies was invaluable in our diverse project endeavors.\n\nStepan's self-sufficiency and dedication to continuous learning have been a tremendous asset to our team. He is an outstanding software engineer with a unique blend of technical skills, adaptability, and a keen understanding of the latest industry trends. Any organization looking for a talented and dedicated professional in the field of software development would greatly benefit from having Stepan on their team."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Speakloop",
+      "startDate": "2020-05-31",
+      "summary": "Speakloop is a mobile language learning application equipped with speech recognition capabilities, powered by GPTchat technology. A participant in the Y Combinator Startup School 2019, this app offers an innovative approach to English language acquisition.\nMy role involved designing and developing mobile applications for both Android and iOS platforms using Flutter (Dart), ensuring a seamless user experience.",
+      "url": null,
+      "endDate": "2020-08-31"
+    },
+    {
+      "name": "Bus 1 Mobile App",
+      "startDate": "2017-11-30",
+      "summary": "Company avtobus1 solves the problem of ordering transport by taking care of all logistics organization. The application allows informing customers about changes in bus schedules.\n\nThis project was realized from scratch: in 2 months I created an MVP using Xamarin. Later I developed the application for 8 months, also improved the functionality and UI, with the translation of the product to Android (Kotlin) and iOS (Swift).",
+      "url": null,
+      "endDate": "2018-09-30"
+    },
+    {
+      "name": "OOO 5 Star",
+      "startDate": "2015-10-31",
+      "summary": "Wheel 5 Stars is a company specializing in amusement park rides across Russia. I designed and developed a bespoke software and hardware system. This complex solution, tailored to manage revenue, aimed to reduce cash handling costs and enhance security against theft.\n\nAs a Software Engineer on this project, I collaborated with a team of three (including a Project Manager and an Embedded Engineer) to build the system from scratch. Leveraging technologies such as MeteorJS with MongoDB, Angular, Bootstrap, Python, Raspberry Pi, SQLite, Linux, and Git, we delivered both server-side and client-side components to meet the client's needs effectively.",
+      "url": null,
+      "endDate": "2016-01-31"
+    },
+    {
+      "name": "Roomin",
+      "startDate": "2013-06-30",
+      "summary": "Roomin is an aggregator of long-term rental housing ads, promoting listings from property owners. The project was created to provide an opportunity to find suitable rental accommodation quickly and at no extra cost. The project was implemented in Moscow and Yekaterinburg.\n\nI used Android (Java), Redmine, Linux and Git to develop and implement the project from scratch. A backend developer also worked in the team.",
+      "url": null,
+      "endDate": "2013-10-31"
+    }
+  ]
+}
