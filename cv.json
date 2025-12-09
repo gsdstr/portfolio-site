@@ -30,13 +30,30 @@
   },
   "work": [
     {
-      "name": "Proletek",
-      "position": "Founding Software Engineer",
-      "startDate": "2025-01-31",
+      "name": "ButtonAI",
+      "position": "Software Engineer",
+      "startDate": "2025-03-31",
       "endDate": "",
       "highlights": [],
-      "summary": "AI Automation Agency. Business process automation agency.",
-      "url": ""
+      "summary": "Personal Vibe Marketers for SMB owners.",
+      "achievements": [
+        "Actively contributed to the development and enhancement of the backend system using Python FastAPI, SQLAlchemy, Pydantic, and Alembic.",
+        "Optimized the project infrastructure by migrating the dependency management system from poetry to the lighter and more flexible uv, simplifying CI/CD and accelerating builds.",
+        "Integrated a task queue with dramatiq, offloading key processes into asynchronous background tasks, which significantly reduced API load and improved system responsiveness.",
+        "Refactored parts of the business logic into modular functions and tasks, improving code readability, testing efficiency, and scalability.",
+        "Connected and configured integration with an MCP server (fastmcp) to enable communication with AI agents.",
+        "Participated in frontend development using React + React Native, leveraging Tamagui, Zustand, TailwindCSS, and Solito for cross-platform development. Maintained a design system via Storybook.",
+        "Collaborated closely with the ML/AI team, ensuring reliable integration between modules and supporting experimentation with AI agents."
+      ],
+      "skills": [
+        "Python",
+        "JavaScript",
+        "Tamagui",
+        "vercel",
+        "FastAPI",
+        "GCP"
+      ],
+      "url": "https://thebutton.ai/"
     },
     {
       "name": "Gehtsoft USA LLC",
@@ -184,6 +201,16 @@
       "keywords": []
     },
     {
+      "name": "Python",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "FastAPI",
+      "level": "",
+      "keywords": []
+    },
+    {
       "name": "Kotlin",
       "level": "",
       "keywords": []
@@ -315,6 +342,13 @@
     }
   ],
   "projects": [
+
+    {
+      "name": "Proletek",
+      "startDate": "2025-01-31",
+      "summary": "AI Automation Agency. Business process automation agency.",
+      "url": ""
+    },
     {
       "name": "Speakloop",
       "startDate": "2020-05-31",
